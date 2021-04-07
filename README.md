@@ -1,6 +1,7 @@
 ## JFINDEX
 
-Es un proyecto "UNIX" para calcular las Energías de los archivos generados por los experimentos Químicos.
+Genera índices que estiman la calidad de una funcional de la densidad mediante evaluación del cumplimiento del teorema de Koopmans. Requiere de archivos de salida de Gaussian de cálculos de punto sencillo (single point) con N, N+1 y N-1 electrones. Genera archivos .csv y .tex donde se contienen de manera tabular los valores de los índices aludidos. Se pueden en emplear en computadores personales con Mac o Windows (jfindex) o en servidores con sistema operativo Linux (jfindex-server).
+
 ## Requerimientos
 
 Requiere python 3.
